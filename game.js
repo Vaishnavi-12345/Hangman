@@ -7,7 +7,7 @@ const playAgainBtn = gameModal.querySelector("button");
 const backgroundMusic = new Audio('hangman.mp3');
 
 let currentWord, correctLetters, wrongGuessCount;
-const maxGuesses = 10;
+const maxGuesses = 6;
 
 // Start playing background music automatically
 backgroundMusic.loop = true;
